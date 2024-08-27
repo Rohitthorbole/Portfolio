@@ -3,9 +3,12 @@ import React from 'react'
 const Resume = () => {
   return (
     <>
-      <div className='bg-gray-100'>
+      <div>
         <div>
-          <h1 className='text-[30px] font-semibold pl-[50px] pt-[40px]'>Education</h1>
+          <div className='pl-[10px] pt-[40px] flex gap-3'>
+            <img src="./Media/study.svg" alt="" className='mt-1' />
+            <h1 className='text-[30px] font-semibold'>Education</h1>
+          </div>
           <ul className='pl-[50px] text-[18px]'>
             <li>
               Bachelor of Computer Applications(2025) | MIT ACSC, Alandi.
@@ -19,7 +22,10 @@ const Resume = () => {
           </ul>
         </div>
         <div>
-          <h1 className='text-[30px] font-semibold pl-[50px] pt-[40px]'>Experience</h1>
+          <div className='pl-[10px] pt-[40px] flex gap-3'>
+            <img src="./Media/education.svg" alt="" className='mt-1' />
+            <h1 className='text-[30px] font-semibold'>Experience</h1>
+          </div>
           <ul className='pl-[50px] text-[18px]'>
             <li>
               The Sparks Foundation - Web Developer Intern
@@ -33,7 +39,10 @@ const Resume = () => {
           </ul>
         </div>
         <div>
-          <h1 className='text-[30px] font-semibold pl-[50px] pt-[40px]'>Projects</h1>
+          <div className='pl-[10px] pt-[40px] flex gap-3'>
+            <img src="./Media/projects.svg" alt="" className='mt-1' />
+            <h1 className='text-[30px] font-semibold'>Projects</h1>
+          </div>
           <ul className='pl-[50px] text-[18px]'>
             <li>
               Portfolio
@@ -53,7 +62,10 @@ const Resume = () => {
           </ul>
         </div>
         <div>
-          <h1 className='text-[30px] font-semibold pl-[50px] pt-[40px]'>Skills</h1>
+          <div className='pl-[10px] pt-[40px] flex gap-3'>
+            <img src="./Media/skills.svg" alt="" className='mt-1' />
+            <h1 className='text-[30px] font-semibold'>Skills</h1>
+          </div>
           <ul className='pl-[50px] text-[18px]'>
             <li>
               Frontend-Development
@@ -72,7 +84,7 @@ const Resume = () => {
             </li>
           </ul>
         </div>
-        
+
       </div>
     </>
   )

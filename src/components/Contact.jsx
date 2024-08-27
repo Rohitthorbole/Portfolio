@@ -3,9 +3,12 @@ import React from 'react'
 const Contact = () => {
   return (
     <>
-      <div className='bg-gray-100'>
       <div>
-          <h1 className='text-[30px] font-semibold pl-[50px] pt-[40px]'>Personal Details</h1>
+      <div>
+          <div className='pl-[10px] pt-[40px] flex gap-3'>
+            <img src="./Media/personal.svg" alt="" className='mt-1' />
+            <h1 className='text-[30px] font-semibold'>Personal Details</h1>
+          </div>
           <ul className='pl-[50px] text-[18px]'>
             <li>
               Name : Rohit Vinod Thorbole
@@ -26,7 +29,10 @@ const Contact = () => {
           </ul>
         </div>
         <div>
-          <h1 className='text-[30px] font-semibold pl-[50px] pt-[40px]'>Contact Details</h1>
+          <div className='pl-[10px] pt-[40px] flex gap-3'>
+            <img src="./Media/contact.svg" alt="" className='mt-1' />
+            <h1 className='text-[30px] font-semibold'>Contact Details</h1>
+          </div>
           <ul className='pl-[50px] text-[18px]'>
             <li>
               Phone No : 9172198021

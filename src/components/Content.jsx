@@ -3,7 +3,7 @@ import React from 'react'
 const Content = () => {
     return (
         <>
-            <div className='bg-gray-100 flex justify-between'>
+            <div className=' flex justify-between'>
                 <div>
                     <div className="flex justify-center pt-20 text-[40px] font-bold pl-[50px] max-w-[700px]">
                         I'm Rohit. Web Developer and Aspiring Technologist
