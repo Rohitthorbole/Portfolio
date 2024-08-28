@@ -5,7 +5,7 @@ const Content = () => {
         <>
             <div className=' flex justify-between'>
                 <div>
-                    <div className="flex justify-center pt-20 text-[40px] font-bold pl-[50px] max-w-[700px]">
+                    <div className="flex justify-center font- pt-20 text-[40px] font-bold pl-[50px] max-w-[700px] font-deserta">
                         I'm Rohit. Web Developer and Aspiring Technologist
                     </div>
                     <div className="pl-[50px] max-w-[700px] pt-10 text-[18px]">

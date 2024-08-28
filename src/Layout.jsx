@@ -8,7 +8,7 @@ function Layout() {
   
   return (
     <>
-      <div className='bg-gray-100 dark:bg-black dark:text-gray-50'>
+      <div className='bg-white dark:bg-zinc-900 bg-hero-pattern dark:text-gray-50 font-Jakarta'>
       <Navbar />
       <Outlet />
       <End />

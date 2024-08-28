@@ -7,7 +7,16 @@ export default {
  
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Jakarta: ["Plus Jakarta Sans", "sans-serif"],
+        deserta: ["deserta","Plus Jakarta Sans"]
+      },
+
+      backgroundImage: {
+        'hero-pattern': "url('/Media/image.png')"
+      }
+    },
   },
   plugins: [],
 }

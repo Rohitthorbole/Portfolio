@@ -14,10 +14,11 @@ const Navbar = () => {
     }
 
   return (
-    <div>
-        <header class="h-16 border">
-        <div class="p-8 px-[25vw]">
-            <ul class="flex justify-between">
+    <div >
+        <header className="h-20 border-b-[1px] border-zinc-300 ">
+        <div className="h-full flex justify-between items-center mx-6 ">
+            <img src="/Media/1.png" alt="" className='max-h-[50px]' />
+            <ul className="flex items-center gap-10 text-l">
                 <li>
                   <Link to="/">About</Link>
                 </li>
@@ -31,7 +32,8 @@ const Navbar = () => {
                 <li>
                   <Link to="Contact">Contact</Link>
                 </li>
-                <li><button onClick={()=> darkModeHandler()}>
+            </ul>
+            <button onClick={()=> darkModeHandler()}>
                 {
                     
                     dark && <IoSunny />
@@ -39,8 +41,7 @@ const Navbar = () => {
                 {
                     !dark && <IoMoon />
                 }
-            </button></li>
-            </ul>
+            </button>
         </div>
     </header>
     </div>
