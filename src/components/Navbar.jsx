@@ -19,17 +19,17 @@ const Navbar = () => {
         <div className="h-full flex justify-between items-center mx-6 ">
             <img src="/Media/1.png" alt="" className='max-h-[50px]' />
             <ul className="flex items-center gap-10 text-l">
-                <li>
-                  <Link to="/">About</Link>
+                <li className='hover:text-blue-500'>
+                  <Link to="/">Home</Link>
                 </li>
-                <li>
+                <li className='hover:text-blue-500'>
                   <Link to="/Project">Projects</Link>
                 </li>
 
-                <li>
-                  <Link to="/Resume">Resume</Link>
+                <li className='hover:text-blue-500'>
+                  <Link to="/About">About</Link>
                 </li>
-                <li>
+                <li className='hover:text-blue-500'>
                   <Link to="Contact">Contact</Link>
                 </li>
             </ul>
