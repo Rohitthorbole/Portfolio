@@ -72,7 +72,7 @@ const Content = () => {
                     </div>
                 </div>
                 <div>
-                    <div className='pt-[100px] pr-[100px]'><img src="./Media/rohit.png" alt="" className='max-h-[320px] max-w-[240px] border border-collapse border-blue-300 rounded-lg'/></div>
+                    <div className='pt-[100px] pr-[100px]'><img src="./Media/rohit.png" alt="" className='max-h-[320px] max-w-[240px]rounded-lg hover:shadow-lg'/></div>
                 </div>
 
             </div>
