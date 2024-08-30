@@ -18,7 +18,7 @@ const Content = () => {
                     {/* Technologies */}
 
                     <div className="pl-[50px] max-w-[700px] pt-10">
-                        <h1 className="text-[30px] font-semibold">Technologies</h1>
+                        <h1 className="text-[30px] font-semibold font-deserta">Technologies</h1>
                         <ul class="text-[18px]">
                             <li className="my-2 flex">
                                 <p className='text-blue-500'>React </p>
@@ -46,7 +46,7 @@ const Content = () => {
                     {/* Tools */}
 
                     <div className="pl-[50px] max-w-[700px] pt-10">
-                        <h1 className="text-[30px] font-semibold">Tools</h1>
+                        <h1 className="text-[30px] font-semibold font-deserta">Tools</h1>
                         <ul className="text-[18px]">
                         <li className="my-2 flex">
                                 <p className='text-blue-500'>Visual Studio Code </p>
@@ -72,7 +72,7 @@ const Content = () => {
                     </div>
                 </div>
                 <div>
-                    <div className='pt-[100px] pr-[100px]'><img src="./Media/Rohit.jpg" alt="" className='max-h-[400px] max-w-[300px] border border-collapse border-blue-300 rounded-lg'/></div>
+                    <div className='pt-[100px] pr-[100px]'><img src="./Media/rohit.png" alt="" className='max-h-[320px] max-w-[240px] border border-collapse border-blue-300 rounded-lg'/></div>
                 </div>
 
             </div>

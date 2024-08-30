@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <>
       <div>
-        <h1 className='text-[30px] font-semibold pl-[50px] pt-[100px]'>Projects</h1>
+        <h1 className='text-[30px] font-semibold pl-[50px] pt-[100px] font-deserta'>Projects</h1>
         <p className='pl-[50px] pt-4 text-[18px]'>
           I've worked on many of little projects over the years but these are the ones that I'm most proud of.  Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas on how it can be improved.
         </p>
