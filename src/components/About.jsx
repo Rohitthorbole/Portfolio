@@ -11,7 +11,7 @@ const About = () => {
 
                     <div>
                         <div className='pl-[30px] pt-[40px] flex gap-3'>
-                            <img src="./Media/contact.svg" alt="" className='mt-1' />
+                            <img src="./Media/education.svg" alt="" className='mt-1' />
                             <h1 className='text-[30px] font-semibold font-deserta'>Education</h1>
                         </div>
                         <ul className='pl-[70px] text-[18px]'>
@@ -34,7 +34,7 @@ const About = () => {
 
                     <div>
                         <div className='pl-[30px] pt-[40px] flex gap-3'>
-                            <img src="./Media/contact.svg" alt="" className='mt-1' />
+                            <img src="./Media/skills.svg" alt="" className='mt-1' />
                             <h1 className='text-[30px] font-semibold font-deserta'>Technologies</h1>
                         </div>
                         <ul className='pl-[70px] text-[18px]'>
@@ -65,7 +65,7 @@ const About = () => {
 
                     <div>
                         <div className='pl-[30px] pt-[40px] flex gap-3'>
-                            <img src="./Media/contact.svg" alt="" className='mt-1' />
+                            <img src="./Media/tools.svg" alt="" className='mt-1' />
                             <h1 className='text-[30px] font-semibold font-deserta'>Tools</h1>
                         </div>
                         <ul className='pl-[70px] text-[18px]'>
@@ -96,7 +96,7 @@ const About = () => {
 
                 {/* right side of page */}
 
-                <div className='h-[300px] w-[200px] mr-[100px] mt-[50px] '>
+                <div className='h-[300px] w-[200px] mr-[100px] mt-[30px] '>
                     <div className='fixed'>
                         <div className='flex justify-center'><img src="./Media/rohit.png" alt="" className='h-[200px] w-[160px] mt-5' /></div>
                         <div className='flex justify-center gap-3 items-center mt-2 w-[160px] h-[40px] border border-zinc-600 hover:border focus:border hover:shadow-lg'>

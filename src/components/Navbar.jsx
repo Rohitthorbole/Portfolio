@@ -14,7 +14,7 @@ const Navbar = () => {
     }
 
   return (
-    <div className='sticky top-0 -z-0 bg-white bg-hero-pattern'>
+    <div className='sticky top-0 -z-0 bg-white bg-hero-pattern dark:bg-zinc-900'>
         <header className="h-20 border-b-[1px] border-zinc-300 ">
         <div className="h-full flex justify-between items-center mx-6 ">
             <img src="/Media/1.png" alt="" className='max-h-[50px]' />
