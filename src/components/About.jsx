@@ -100,10 +100,17 @@ const About = () => {
                     <div className='fixed'>
                         <div className='flex justify-center'><img src="./Media/rohit.png" alt="" className='h-[200px] w-[160px] mt-5' /></div>
                         <div className='flex justify-center gap-3 items-center mt-2 w-[160px] h-[40px] border border-zinc-600 hover:border focus:border hover:shadow-lg'>
-                            <div className='font-semibold flex'>
+                            <div className='font-semibold flex hover:text-blue-400'>
                                 <Link to="/Resume">View Resume</Link>
                             </div>
                             <img src="./Media/arrow.svg" alt="" />
+                        </div>
+
+                        <div className='flex justify-center gap-3 items-center mt-2 w-[160px] h-[40px] border border-zinc-600 hover:border focus:border hover:shadow-lg'>
+                            <div className='font-semibold flex hover:text-blue-400'>
+                                <Link to="/Resume">Download</Link>
+                            </div>
+                            <img src="./Media/download.svg" alt="" />
                         </div>
                     </div>
 
