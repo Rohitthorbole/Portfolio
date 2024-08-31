@@ -27,7 +27,7 @@ const Content = () => {
 
                     <div className='pl-[50px] pt-[40px] max-w-[700px] text-[18px]'>
                             <h1 className='text-[30px] font-semibold font-deserta'>What I'm Currently Working on?</h1>
-                            <p>I'm currently working with React and enhancing my skills in front-end. I'm also learning and working on back-end technologies. Currently, I am working on different Projects.</p>
+                            <p>I'm working with React and enhancing my skills in front-end. I'm also learning back-end technologies.I am also working on different Projects.</p>
                     </div>
 
                     <div>
