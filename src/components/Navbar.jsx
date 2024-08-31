@@ -8,42 +8,42 @@ import { IconContext } from 'react-icons'
 const Navbar = () => {
   const [dark, setDark] = React.useState(false);
 
-    const darkModeHandler = () => {
-        setDark(!dark);
-        document.body.classList.toggle("dark");
-    }
+  const darkModeHandler = () => {
+    setDark(!dark);
+    document.body.classList.toggle("dark");
+  }
 
   return (
     <div className='sticky top-0 -z-0 bg-white bg-hero-pattern dark:bg-zinc-900'>
-        <header className="h-20 border-b-[1px] border-zinc-300 ">
+      <header className="h-20 border-b-[1px] border-zinc-300 ">
         <div className="h-full flex justify-between items-center mx-6 ">
-            <img src="/Media/1.png" alt="" className='max-h-[50px]' />
-            <ul className="flex items-center gap-10 text-l">
-                <li className='hover:text-blue-500'>
-                  <Link to="/">Home</Link>
-                </li>
-                <li className='hover:text-blue-500'>
-                  <Link to="/Project">Projects</Link>
-                </li>
+          <img src="/Media/1.png" alt="" className='max-h-[50px]' />
+          <ul className="flex items-center gap-10 text-l">
+            <li className='hover:text-blue-500'>
+              <Link to="/">Home</Link>
+            </li>
+            <li className='hover:text-blue-500'>
+              <Link to="/Project">Projects</Link>
+            </li>
 
-                <li className='hover:text-blue-500'>
-                  <Link to="/About">About</Link>
-                </li>
-                <li className='hover:text-blue-500'>
-                  <Link to="Contact">Contact</Link>
-                </li>
-            </ul>
-            <button onClick={()=> darkModeHandler()}>
-                {
-                    
-                    dark && <IoSunny />
-                }
-                {
-                    !dark && <IoMoon />
-                }
-            </button>
+            <li className='hover:text-blue-500'>
+              <Link to="/About">About</Link>
+            </li>
+            <li className='hover:text-blue-500'>
+              <Link to="Contact">Contact</Link>
+            </li>
+          </ul>
+          <button onClick={() => darkModeHandler()}>
+            {
+
+              dark && <IoSunny />
+            }
+            {
+              !dark && <IoMoon />
+            }
+          </button>
         </div>
-    </header>
+      </header>
     </div>
   )
 }

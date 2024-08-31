@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       <div>
-      <div>
+        <div>
           <div className='pl-[30px] pt-[40px] flex gap-3'>
             <img src="./Media/personal.svg" alt="" className='mt-1' />
             <h1 className='text-[30px] font-semibold font-deserta'>Personal Details</h1>
@@ -20,8 +20,8 @@ const Contact = () => {
               Gender: Male
             </li>
             <li>
-            Current Address: Chakan Road , Alandi, Pune, Maharashtra,
-            India - 412105
+              Current Address: Chakan Road , Alandi, Pune, Maharashtra,
+              India - 412105
             </li>
             <li>
               Known Languages: Marathi , English, Hindi
@@ -41,10 +41,10 @@ const Contact = () => {
               Email : rohitthorbole4@gmail.com
             </li>
             <li>
-              Github : 
+              Github :
             </li>
             <li>
-              Linkedin : 
+              Linkedin :
             </li>
           </ul>
         </div>

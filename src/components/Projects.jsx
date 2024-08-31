@@ -5,9 +5,14 @@ const Projects = () => {
     <>
       <div>
         <h1 className='text-[30px] font-semibold pl-[50px] pt-[100px] font-deserta'>Projects</h1>
+
+        {/* Description */}
+
         <p className='pl-[50px] pt-4 text-[18px]'>
           I've worked on many of little projects over the years but these are the ones that I'm most proud of.  Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas on how it can be improved.
         </p>
+
+        {/*  First three Projects */}
         <div className='flex justify-between mx-[50px] mt-10'>
           <div className='border border-collapse rounded-md w-[380px] h-[200px] bg-white dark:text-black flex justify-center items-center p-3 gap-3 hover:shadow-lg hover:border-slate-300'>
             <div><a href="https://github.com/Rohitthorbole/QRGenerator"><img src="./Media/QRGenerator.png" alt="" className='max-w-[150px] h-[150px]' /></a></div>
@@ -31,8 +36,10 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
+        {/* Second three projects */}
         <div className='flex justify-between mx-[50px] mt-4'>
-        <div className='border border-collapse rounded-md w-[380px] h-[200px] bg-white dark:text-black flex justify-center items-center p-3 gap-3 hover:shadow-lg hover:border-slate-300'>
+          <div className='border border-collapse rounded-md w-[380px] h-[200px] bg-white dark:text-black flex justify-center items-center p-3 gap-3 hover:shadow-lg hover:border-slate-300'>
             <div><a href="https://github.com/Rohitthorbole/Bodybalance"><img src="./Media/BodyBalance.png" alt="" className='max-w-[150px] h-[150px]' /></a></div>
             <div className='flex flex-col'>
               <div className='font-semibold'>Body Balance</div>
@@ -46,7 +53,7 @@ const Projects = () => {
               <div className=''>This weather app is all about learning web APIs. It leverages the Open Weather API to deliver real-time weather data.</div>
             </div>
           </div>
-          <div className='border border-collapse rounded-md w-[380px] h-[200px] bg-white dark:text-black flex justify-center items-center p-3 gap-3 hover:shadow-lg hover:border-slate-300'>   
+          <div className='border border-collapse rounded-md w-[380px] h-[200px] bg-white dark:text-black flex justify-center items-center p-3 gap-3 hover:shadow-lg hover:border-slate-300'>
             <div><a href="https://github.com/Rohitthorbole/Netflix_clone"><img src="./Media/Netflix.png" alt="" className='max-w-[150px] h-[150px]' /></a></div>
             <div className='flex flex-col'>
               <div className='font-semibold'>Netflix Clone</div>
