@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const About = () => {
     return (
         <>
@@ -96,9 +96,17 @@ const About = () => {
 
                 {/* right side of page */}
 
-                <div className='h-[300px] w-[250px] bg-white mr-[100px] mt-[50px]'>
-                    <div className='flex justify-center'><img src="./Media/rohit.png" alt="" className='h-[200px] w-[160px] mt-5' /></div>
-                    <div className='flex justify-center border mt-2 w-[200px]'><button>View Resume</button></div>
+                <div className='h-[300px] w-[200px] mr-[100px] mt-[50px] '>
+                    <div className='fixed'>
+                        <div className='flex justify-center'><img src="./Media/rohit.png" alt="" className='h-[200px] w-[160px] mt-5' /></div>
+                        <div className='flex justify-center gap-3 items-center mt-2 w-[160px] h-[40px] border border-zinc-600 hover:border focus:border hover:shadow-lg'>
+                            <div className='font-semibold flex'>
+                                <Link to="/Resume">View Resume</Link>
+                            </div>
+                            <img src="./Media/arrow.svg" alt="" />
+                        </div>
+                    </div>
+
                 </div>
 
             </div>

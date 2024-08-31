@@ -1,6 +1,5 @@
 import React from 'react'
-import { Typed } from 'react-typed'
-
+import { ReactTyped } from "react-typed";
 const Content = () => {
     return (
         <>
@@ -10,8 +9,14 @@ const Content = () => {
 
                     {/* Name */}
 
-                    <div className="flex justify-center font- pt-20 text-[40px] font-bold pl-[50px] max-w-[700px] font-deserta">
-                        I'm Rohit. Web Developer and Aspiring Technologist
+                    <div className="font- pt-20 text-[40px] font-bold pl-[50px] max-w-[700px] font-deserta">
+                        I'm Rohit. 
+                    <ReactTyped
+                        strings={['Web Developer', 'Programmer','Coder']}
+                        typeSpeed={30}
+                        backSpeed={50}
+                        loop
+                    />
                     </div>
 
                     {/* Brief Summary */}
@@ -26,20 +31,18 @@ const Content = () => {
                     {/* what i am doing */}
 
                     <div className='pl-[50px] pt-[40px] max-w-[700px] text-[18px]'>
-                            <h1 className='text-[30px] font-semibold font-deserta'>What I'm Currently Working on?</h1>
-                            <p>I'm working with React and enhancing my skills in front-end. I'm also learning back-end technologies.I am also working on different Projects.</p>
-                    </div>
-
-                    <div>
-
+                        <h1 className='text-[30px] font-semibold font-deserta'>What I'm Currently Working on?</h1>
+                        <p>I'm working with React and enhancing my skills in front-end. I'm also learning back-end technologies.I am also working on different Projects.</p>
                     </div>
 
                 </div>
 
                 {/* Content right */}
 
-                <div>
-                    <div className='pt-[100px] pr-[100px]'><img src="./Media/rohit.png" alt="" className='max-h-[320px] max-w-[240px]rounded-lg hover:shadow-lg'/></div>
+                <div className=''>
+                    <div className='sticky top-0 pt-[100px] mr-[100px] h-[320px] w-[240px]'>
+                        <img src="./Media/rohit.png" alt="" className='max-h-[320px] max-w-[240px] rounded-lg hover:shadow-lg' />
+                    </div>
                 </div>
 
             </div>
