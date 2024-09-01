@@ -1,4 +1,5 @@
 import React from 'react'
+import QRGenerator from '/Media/QRGenerator.png'
 
 const Projects = () => {
   return (
@@ -15,7 +16,7 @@ const Projects = () => {
         {/*  First three Projects */}
         <div className='flex justify-between mx-[50px] mt-10 xs:block'>
           <div className='border border-collapse rounded-md w-[380px] h-[200px] bg-white dark:text-black flex justify-center items-center p-3 gap-3 hover:shadow-lg hover:border-slate-300 xs:w-[80vw] xs:h-[180px] xs:text-[14px] my-2'>
-            <div><a href="https://github.com/Rohitthorbole/QRGenerator"><img src="../Media/QRGenerator.png" alt="" className='max-w-[150px] h-[150px]' /></a></div>
+            <div><a href="https://github.com/Rohitthorbole/QRGenerator"><img src={QRGenerator} alt="" className='max-w-[150px] h-[150px]' /></a></div>
             <div className='flex flex-col'>
               <div className='font-semibold'>QR Generator</div>
               <div className=''>This tool helps you generate your own QR codes easily and quickly.</div>
