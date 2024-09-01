@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const About = () => {
     return (
         <>
-            <div className='flex justify-between'>
+            <div className='flex justify-between xs:block'>
                 {/* left side of about page */}
                 <div>
 
@@ -96,17 +96,17 @@ const About = () => {
 
                 {/* right side of page */}
 
-                <div className='h-[300px] w-[200px] mr-[100px] mt-[30px] '>
-                    <div className='fixed'>
+                <div className='h-[300px] w-[200px] mr-[100px] mt-[30px] xs:w-full'>
+                    <div className='fixed xs:static'>
                         <div className='flex justify-center'><img src="./Media/rohit.png" alt="" className='h-[200px] w-[160px] mt-5' /></div>
-                        <div className='flex justify-center gap-3 items-center mt-2 w-[160px] h-[40px] border border-zinc-600 hover:border focus:border hover:shadow-lg'>
+                        <div className='flex justify-center gap-3 items-center mt-2 w-[160px] h-[40px] border border-zinc-600 hover:border focus:border hover:shadow-lg xs:ml-[130px]'>
                             <div className='font-semibold flex hover:text-blue-400'>
                                 <Link to="/Resume">View Resume</Link>
                             </div>
                             <img src="./Media/arrow.svg" alt="" />
                         </div>
 
-                        <div className='flex justify-center gap-3 items-center mt-2 w-[160px] h-[40px] border border-zinc-600 hover:border focus:border hover:shadow-lg'>
+                        <div className='flex justify-center gap-3 items-center mt-2 w-[160px] h-[40px] border border-zinc-600 hover:border focus:border hover:shadow-lg xs:ml-[130px]'>
                             <div className='font-semibold flex hover:text-blue-400'>
                                 <Link to="/Resume">Download</Link>
                             </div>
