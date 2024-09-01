@@ -8,6 +8,10 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
+      screens: {
+        'xs': {'max': '420px'},
+        'xl':'420px',
+      },
       fontFamily: {
         Jakarta: ["Plus Jakarta Sans", "sans-serif"],
         deserta: ["deserta","Plus Jakarta Sans"]

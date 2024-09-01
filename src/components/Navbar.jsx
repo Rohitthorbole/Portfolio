@@ -15,10 +15,15 @@ const Navbar = () => {
 
   return (
     <div className='sticky top-0 -z-0 bg-white bg-hero-pattern dark:bg-zinc-900'>
-      <header className="h-20 border-b-[1px] border-zinc-300 ">
+      <header className="h-20 border-b-[1px] border-zinc-300">
         <div className="h-full flex justify-between items-center mx-6 ">
+
+          {/* logo */}
           <img src="/Media/1.png" alt="" className='max-h-[50px]' />
-          <ul className="flex items-center gap-10 text-l">
+
+          {/* navbar for xl */}
+
+          <ul className="flex items-center gap-10 text-l xs:hidden">
             <li className='hover:text-blue-500'>
               <Link to="/">Home</Link>
             </li>
@@ -33,6 +38,14 @@ const Navbar = () => {
               <Link to="Contact">Contact</Link>
             </li>
           </ul>
+          {/* Navbar for xs */}
+          <div className='xl:hidden flex gap-5'>
+            <Link to="/"><img src="./Media/arrow.svg" alt=""/></Link>
+            <Link to="/Project"><img src="./Media/arrow.svg" alt=""/></Link>
+            <Link to="/About"><img src="./Media/arrow.svg" alt=""/></Link>
+            <Link to="Contact"><img src="./Media/arrow.svg" alt=""/></Link>
+          </div>
+          
           <button onClick={() => darkModeHandler()}>
             {
 

@@ -3,36 +3,39 @@ import { ReactTyped } from "react-typed";
 const Content = () => {
     return (
         <>
-            <div className=' flex justify-between'>
-                {/* content-left */}
-                <div>
+            <div className=''>
+
+                {/* first part */}
+
+                <div className='flex justify-between xs:flex-col'>
 
                     {/* Name */}
 
-                    <div className="font- pt-20 text-[40px] font-bold pl-[50px] max-w-[700px] font-deserta">
-                        I'm Rohit. 
-                    <ReactTyped
-                        strings={['Web Developer', 'Programmer','Coder']}
-                        typeSpeed={30}
-                        backSpeed={50}
-                        loop
-                    />
+                    <div>
+                        <div className="pt-[50px] text-[40px] font-bold pl-[50px] max-w-[700px] font-deserta xs:text-[30px] xs:w-full xs:pl-[30px]">
+                            I'm Rohit.
+                            <ReactTyped
+                                strings={['Web Developer', 'Programmer', 'Coder']}
+                                typeSpeed={30}
+                                backSpeed={50}
+                                loop
+                            />
+                            {/* Brief Summary */}
+
+                        </div>
+
+                        <div className="pl-[50px] max-w-[700px] pt-10 text-[18px] xs:pl-[30px]">
+                            I am Rohit Thorbole. I am Full Stack Web Developer who is eager to put my skills in development to use for the success. My knowledge on different technologies and programming languages ranges from C,C++, Python, PHP, Java, Javascript to managing databases and Linux environment.
+                            <br />
+                            <br />
+                            I strongly believe in continuous learning and improving myself, so I try my best to learn in any situation possible, unfavorable or not.
+                        </div>
                     </div>
 
-                    {/* Brief Summary */}
+                    {/* Image */}
 
-                    <div className="pl-[50px] max-w-[700px] pt-10 text-[18px]">
-                        I am Rohit Thorbole. I am Full Stack Web Developer who is eager to put my skills in development to use for the success. My knowledge on different technologies and programming languages ranges from C,C++, Python, PHP, Java, Javascript to managing databases and Linux environment.
-                        <br />
-                        <br />
-                        I strongly believe in continuous learning and improving myself, so I try my best to learn in any situation possible, unfavorable or not.
-                    </div>
-
-                    {/* what i am doing */}
-
-                    <div className='pl-[50px] pt-[40px] max-w-[700px] text-[18px]'>
-                        <h1 className='text-[30px] font-semibold font-deserta'>What I'm Currently Working on?</h1>
-                        <p>I'm working with React and enhancing my skills in front-end. I'm also learning back-end technologies.I am also working on different Projects.</p>
+                    <div className='mt-[50px] mr-[50px] h-[320px] w-[240px] xs:w-full xs:pt-[50px] xs:flex xs:justify-center xs:mt-[10px]'>
+                        <img src="./Media/rohit.png" alt="" className='max-h-[320px] max-w-[240px] rounded-lg hover:shadow-lg' />
                     </div>
 
                 </div>
@@ -40,8 +43,11 @@ const Content = () => {
                 {/* Content right */}
 
                 <div className=''>
-                    <div className='sticky top-0 pt-[100px] mr-[100px] h-[320px] w-[240px]'>
-                        <img src="./Media/rohit.png" alt="" className='max-h-[320px] max-w-[240px] rounded-lg hover:shadow-lg' />
+                    {/* what i am doing */}
+
+                    <div className='pl-[50px] pt-[40px] max-w-[700px] text-[18px] xs:pl-[30px]'>
+                        <h1 className='text-[30px] font-semibold font-deserta'>What I'm Currently Working on?</h1>
+                        <p>I'm working with React and enhancing my skills in front-end. I'm also learning back-end technologies.I am also working on different Projects.</p>
                     </div>
                 </div>
 
