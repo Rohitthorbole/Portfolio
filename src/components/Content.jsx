@@ -12,7 +12,7 @@ const Content = () => {
                     {/* Name */}
 
                     <div>
-                        <div className="pt-[50px] text-[40px] font-bold pl-[50px] max-w-[700px] font-deserta xs:text-[30px] xs:w-full xs:pl-[30px]">
+                        <div className="pt-[50px] text-[40px] font-bold pl-[50px] max-w-[700px] font-deserta xs:text-[30px] xs:w-full xs:pl-[30px] xs:pt-[20px]">
                             I'm Rohit.
                             <ReactTyped
                                 strings={['Web Developer', 'Programmer', 'Coder']}
@@ -24,7 +24,7 @@ const Content = () => {
 
                         </div>
 
-                        <div className="pl-[50px] max-w-[700px] pt-10 text-[18px] xs:pl-[30px]">
+                        <div className="pl-[50px] max-w-[700px] pt-10 text-[18px] xs:pl-[30px] xs:pt-[20px] xs:max-w-[95vw]">
                             I am Rohit Thorbole. I am Full Stack Web Developer who is eager to put my skills in development to use for the success. My knowledge on different technologies and programming languages ranges from C,C++, Python, PHP, Java, Javascript to managing databases and Linux environment.
                             <br />
                             <br />
@@ -45,7 +45,7 @@ const Content = () => {
                 <div className=''>
                     {/* what i am doing */}
 
-                    <div className='pl-[50px] pt-[40px] max-w-[700px] text-[18px] xs:pl-[30px]'>
+                    <div className='pl-[50px] pt-[40px] max-w-[700px] text-[18px] xs:pl-[30px] xs:max-w-[95vw]'>
                         <h1 className='text-[30px] font-semibold font-deserta'>What I'm Currently Working on?</h1>
                         <p>I'm working with React and enhancing my skills in front-end. I'm also learning back-end technologies.I am also working on different Projects.</p>
                     </div>
