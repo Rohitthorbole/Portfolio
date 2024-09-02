@@ -25,7 +25,7 @@ const Content = () => {
 
                         </div>
 
-                        <div className="pl-[50px] max-w-[700px] pt-10 text-[18px] xs:pl-[30px] xs:pt-[20px] xs:max-w-[95vw]">
+                        <div className="pl-[50px] max-w-[700px] pt-10 text-[18px] xs:pl-[30px] xs:pt-[20px] xs:max-w-[95vw] xs:text-[16px]">
                             I am Rohit Thorbole. I am Full Stack Web Developer who is eager to put my skills in development to use for the success. My knowledge on different technologies and programming languages ranges from C,C++, Python, PHP, Java, Javascript to managing databases and Linux environment.
                             <br />
                             <br />
@@ -36,7 +36,7 @@ const Content = () => {
                     {/* Image */}
 
                     <div className='mt-[50px] mr-[50px] h-[320px] w-[240px] xs:w-full xs:pt-[50px] xs:flex xs:justify-center xs:mt-[10px]'>
-                        <img src={rohit} alt="" className='max-h-[320px] max-w-[240px] rounded-lg hover:shadow-lg' />
+                        <img src={rohit} alt="" className='max-h-[330px] max-w-[240px] rounded-lg hover:shadow-lg' />
                     </div>
 
                 </div>
@@ -46,7 +46,7 @@ const Content = () => {
                 <div className=''>
                     {/* what i am doing */}
 
-                    <div className='pl-[50px] pt-[40px] max-w-[700px] text-[18px] xs:pl-[30px] xs:max-w-[95vw]'>
+                    <div className='pl-[50px] pt-[40px] max-w-[700px] text-[18px] xs:pl-[30px] xs:max-w-[95vw] xs:text-[16px]'>
                         <h1 className='text-[30px] font-semibold font-deserta'>What I'm Currently Working on?</h1>
                         <p className=''>I'm working with React and enhancing my skills in front-end. I'm also learning back-end technologies.I am also working on different Projects.</p>
                     </div>

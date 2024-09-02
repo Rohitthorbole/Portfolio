@@ -23,18 +23,18 @@ const About = () => {
                             <h1 className='text-[30px] font-semibold font-deserta'>Education</h1>
                         </div>
                         <ul className='pl-[70px] text-[18px]'>
-                            <li className="my-2 flex font-semibold">
+                            <li className="my-2 flex font-semibold text-[18px]">
                                 MIT ACSC, Alandi.
                             </li>
-                            <li>Bachelor of Computer Applications.</li>
+                            <li className='xs:text-[16px]'>Bachelor of Computer Applications.</li>
                             <li className="my-2 flex font-semibold">
                                 SSMV Jr. College, Pune.
                             </li>
-                            <li>HSC and SSC.</li>
+                            <li className='xs:text-[16px]'>HSC and SSC.</li>
                             <li className="my-2 flex font-semibold">
                                 Ganesh Vidyalaya, Terkheda.
                             </li>
-                            <li>Primary</li>
+                            <li className='xs:text-[16px]'>Primary</li>
                         </ul>
                     </div>
 
@@ -46,23 +46,23 @@ const About = () => {
                             <h1 className='text-[30px] font-semibold font-deserta'>Technologies</h1>
                         </div>
                         <ul className='pl-[70px] text-[18px]'>
-                            <li className="my-2 flex">
+                            <li className="my-2 flex xs:text-[16px]">
                                 <p className=''>React </p>
                                 <p> - UI Library</p>
                             </li>
-                            <li className="my-2 flex">
+                            <li className="my-2 flex xs:text-[16px]">
                                 <p className=''>Next.js </p>
                                 <p> - React Framework</p>
                             </li>
-                            <li className="my-2 flex">
+                            <li className="my-2 flex xs:text-[16px]">
                                 <p className=''>MongooDb </p>
                                 <p> - Database</p>
                             </li>
-                            <li className="my-2 flex">
+                            <li className="my-2 flex xs:text-[16px]">
                                 <p className=''>Tailwind CSS </p>
                                 <p> - Styling Library</p>
                             </li>
-                            <li className="my-2 flex">
+                            <li className="my-2 flex xs:text-[16px]">
                                 <p className=''>Python </p>
                                 <p> - Programming Language</p>
                             </li>

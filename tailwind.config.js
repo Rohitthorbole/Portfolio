@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       screens: {
-        'xs': {'max': '420px'},
-        'xl':'420px',
+        'xs': {'max': '460px'},
+        'xl':'460px',
       },
       fontFamily: {
         Jakarta: ["Plus Jakarta Sans", "sans-serif"],

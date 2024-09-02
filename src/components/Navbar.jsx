@@ -17,26 +17,26 @@ const Navbar = () => {
   return (
     <div className='sticky top-0 -z-0 bg-white bg-hero-pattern dark:bg-zinc-900'>
       <header className="h-20 border-b-[1px] border-zinc-300">
-        <div className="h-full flex justify-between items-center mx-6 ">
+        <div className="h-full flex justify-between items-center mx-10 xs:mx-6">
 
           {/* logo */}
-          <img src={logo} alt="" className='max-h-[50px]' />
+          <img src={logo} alt="" className='max-h-[50px] xs:max-h-[30px]' />
 
           {/* navbar for xl */}
 
-          <ul className="flex items-center gap-10 text-l xs:hidden">
-            <li className='hover:text-blue-500'>
-              <Link to="/">Home</Link>
+          <ul className="flex items-center gap-10 text-l xs:gap-3 xs:text-[14px]">
+            <li>
+              <Link to="/" className='hover:text-blue-500'>Home</Link>
             </li>
-            <li className='hover:text-blue-500'>
-              <Link to="/Project">Projects</Link>
+            <li>
+              <Link to="/Project" className='hover:text-blue-500'>Projects</Link>
             </li>
 
-            <li className='hover:text-blue-500'>
-              <Link to="/About">About</Link>
+            <li>
+              <Link to="/About" className='hover:text-blue-500'>About</Link>
             </li>
-            <li className='hover:text-blue-500'>
-              <Link to="Contact">Contact</Link>
+            <li>
+              <Link to="Contact" className='hover:text-blue-500'>Contact</Link>
             </li>
           </ul>
           

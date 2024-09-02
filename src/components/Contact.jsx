@@ -9,7 +9,7 @@ const Contact = () => {
             <img src="./Media/personal.svg" alt="" className='mt-1' />
             <h1 className='text-[30px] font-semibold font-deserta'>Personal Details</h1>
           </div>
-          <ul className='pl-[70px] text-[18px]'>
+          <ul className='pl-[70px] text-[18px] xs:text-[16px]'>
             <li>
               Name : Rohit Vinod Thorbole
             </li>
@@ -33,7 +33,7 @@ const Contact = () => {
             <img src="./Media/contact.svg" alt="" className='mt-1' />
             <h1 className='text-[30px] font-semibold font-deserta'>Contact Details</h1>
           </div>
-          <ul className='pl-[70px] text-[18px]'>
+          <ul className='pl-[70px] text-[18px] xs:text-[16px]'>
             <li>
               Phone No : 9172198021
             </li>
