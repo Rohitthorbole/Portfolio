@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import education from '/Media/education.svg'
 const About = () => {
     return (
         <>
@@ -11,7 +12,7 @@ const About = () => {
 
                     <div>
                         <div className='pl-[30px] pt-[40px] flex gap-3'>
-                            <img src="./Media/education.svg" alt="" className='mt-1' />
+                            <img src={education} alt="" className='mt-1' />
                             <h1 className='text-[30px] font-semibold font-deserta'>Education</h1>
                         </div>
                         <ul className='pl-[70px] text-[18px]'>
