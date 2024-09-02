@@ -14,9 +14,9 @@ const Content = () => {
 
                     <div>
                         <div className="pt-[50px] text-[40px] font-bold pl-[50px] max-w-[700px] font-deserta xs:text-[30px] xs:w-full xs:pl-[30px] xs:pt-[20px]">
-                            I'm Rohit.
-                            <ReactTyped
-                                strings={['Web Developer', 'Programmer', 'Coder']}
+                            I'm 
+                            <ReactTyped className='z-0'
+                                strings={[' Web Developer', ' Programmer', ' Coder']}
                                 typeSpeed={30}
                                 backSpeed={50}
                                 loop

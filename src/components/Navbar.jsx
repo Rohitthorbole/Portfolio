@@ -39,13 +39,6 @@ const Navbar = () => {
               <Link to="Contact">Contact</Link>
             </li>
           </ul>
-          {/* Navbar for xs */}
-          <div className='xl:hidden flex gap-5'>
-            <Link to="/"><img src="./Media/arrow.svg" alt=""/></Link>
-            <Link to="/Project"><img src="./Media/arrow.svg" alt=""/></Link>
-            <Link to="/About"><img src="./Media/arrow.svg" alt=""/></Link>
-            <Link to="Contact"><img src="./Media/arrow.svg" alt=""/></Link>
-          </div>
           
           <button onClick={() => darkModeHandler()}>
             {
