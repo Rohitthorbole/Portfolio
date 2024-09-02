@@ -1,4 +1,6 @@
 import React from 'react'
+import personal from '/Media/personal.svg'
+import contact from '/Media/contact.svg'
 
 const Contact = () => {
   return (
@@ -6,7 +8,7 @@ const Contact = () => {
       <div>
         <div>
           <div className='pl-[30px] pt-[40px] flex gap-3'>
-            <img src="./Media/personal.svg" alt="" className='mt-1' />
+            <img src={personal} alt="" className='mt-1' />
             <h1 className='text-[30px] font-semibold font-deserta'>Personal Details</h1>
           </div>
           <ul className='pl-[70px] text-[18px] xs:text-[16px]'>
@@ -30,7 +32,7 @@ const Contact = () => {
         </div>
         <div>
           <div className='pl-[30px] pt-[40px] flex gap-3'>
-            <img src="./Media/contact.svg" alt="" className='mt-1' />
+            <img src={contact} alt="" className='mt-1' />
             <h1 className='text-[30px] font-semibold font-deserta'>Contact Details</h1>
           </div>
           <ul className='pl-[70px] text-[18px] xs:text-[16px]'>
