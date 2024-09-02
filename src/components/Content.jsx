@@ -1,5 +1,6 @@
 import React from 'react'
 import { ReactTyped } from "react-typed";
+import rohit from '/Media/rohit.png'
 const Content = () => {
     return (
         <>
@@ -35,7 +36,7 @@ const Content = () => {
                     {/* Image */}
 
                     <div className='mt-[50px] mr-[50px] h-[320px] w-[240px] xs:w-full xs:pt-[50px] xs:flex xs:justify-center xs:mt-[10px]'>
-                        <img src="./Media/rohit.png" alt="" className='max-h-[320px] max-w-[240px] rounded-lg hover:shadow-lg' />
+                        <img src={rohit} alt="" className='max-h-[320px] max-w-[240px] rounded-lg hover:shadow-lg' />
                     </div>
 
                 </div>
