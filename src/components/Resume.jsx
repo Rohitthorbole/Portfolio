@@ -1,4 +1,5 @@
 import React from 'react'
+import rohit from '/Media/rohit.png'
 
 const Resume = () => {
   return (
@@ -15,7 +16,7 @@ const Resume = () => {
             <p className='' >Ph : +919172198021</p>
             <p>Address: Alandi, Pune, Maharashtra.</p>
           </div>
-          <img src="./Media/rohit.png" alt="" className='h-[180px] w-[140px] mt-10 xs:h-[160px] xs:w-[120px]' />
+          <img src={rohit} alt="" className='h-[180px] w-[140px] mt-10 xs:h-[160px] xs:w-[120px]' />
         </div>
 
         {/* Brief Summary */}
