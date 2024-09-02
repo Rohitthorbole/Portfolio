@@ -35,7 +35,7 @@ const Content = () => {
 
                     {/* Image */}
 
-                    <div className='mt-[50px] mr-[50px] h-[320px] w-[240px] xs:w-full xs:pt-[50px] xs:flex xs:justify-center xs:mt-[10px]'>
+                    <div className='mt-[50px] mr-[50px] h-[330px] w-[240px] xs:w-full xs:pt-[50px] xs:flex xs:justify-center xs:mt-[10px]'>
                         <img src={rohit} alt="" className='max-h-[330px] max-w-[240px] rounded-lg hover:shadow-lg' />
                     </div>
 

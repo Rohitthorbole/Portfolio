@@ -107,7 +107,7 @@ const About = () => {
                 <div className='h-[300px] w-[200px] mr-[100px] mt-[30px] xs:w-full'>
                     <div className='fixed xs:static'>
                         <div className='flex justify-center'><img src={rohit} alt="" className='h-[200px] w-[160px] mt-5' /></div>
-                        <div className='flex justify-center gap-3 items-center mt-2 w-[160px] h-[40px] border border-zinc-600 hover:border focus:border hover:shadow-lg xs:ml-[130px]'>
+                        <div className='flex justify-center gap-3 items-center mt-2 w-[160px] h-[40px] border border-zinc-600 hover:border focus:border hover:shadow-lg xs:ml-[33vw]'>
                             <div className='font-semibold flex hover:text-blue-400'>
                                 
                                 <Link to="/Resume">View Resume</Link>
@@ -115,7 +115,7 @@ const About = () => {
                             <img src={arrow} alt="" />
                         </div>
 
-                        <div className='flex justify-center gap-3 items-center mt-2 w-[160px] h-[40px] border border-zinc-600 hover:border focus:border hover:shadow-lg xs:ml-[130px]'>
+                        <div className='flex justify-center gap-3 items-center mt-2 w-[160px] h-[40px] border border-zinc-600 hover:border focus:border hover:shadow-lg xs:ml-[33vw]'>
                             <div className='font-semibold flex hover:text-blue-400'>
                                 <Link to="/Resume">Download</Link>
                             </div>
