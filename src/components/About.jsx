@@ -1,5 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import education from '/Media/education.svg'
+import skills from '/Media/skills.svg'
+import tools from '/Media/tools.svg'
+import rohit from '/Media/rohit.png'
+import arrow from '/Media/arrow.svg'
+import download from '/Media/download.svg'
+
+
 const About = () => {
     return (
         <>
@@ -11,7 +19,7 @@ const About = () => {
 
                     <div>
                         <div className='pl-[30px] pt-[40px] flex gap-3'>
-                            <img src="./Media/education.svg" alt="" className='mt-1' />
+                            <img src={education} alt="" className='mt-1' />
                             <h1 className='text-[30px] font-semibold font-deserta'>Education</h1>
                         </div>
                         <ul className='pl-[70px] text-[18px]'>
@@ -34,7 +42,7 @@ const About = () => {
 
                     <div>
                         <div className='pl-[30px] pt-[40px] flex gap-3'>
-                            <img src="./Media/skills.svg" alt="" className='mt-1' />
+                            <img src={skills} alt="" className='mt-1' />
                             <h1 className='text-[30px] font-semibold font-deserta'>Technologies</h1>
                         </div>
                         <ul className='pl-[70px] text-[18px]'>
@@ -65,7 +73,7 @@ const About = () => {
 
                     <div>
                         <div className='pl-[30px] pt-[40px] flex gap-3'>
-                            <img src="./Media/tools.svg" alt="" className='mt-1' />
+                            <img src={tools} alt="" className='mt-1' />
                             <h1 className='text-[30px] font-semibold font-deserta'>Tools</h1>
                         </div>
                         <ul className='pl-[70px] text-[18px]'>
@@ -98,20 +106,20 @@ const About = () => {
 
                 <div className='h-[300px] w-[200px] mr-[100px] mt-[30px] xs:w-full'>
                     <div className='fixed xs:static'>
-                        <div className='flex justify-center'><img src="./Media/rohit.png" alt="" className='h-[200px] w-[160px] mt-5' /></div>
+                        <div className='flex justify-center'><img src={rohit} alt="" className='h-[200px] w-[160px] mt-5' /></div>
                         <div className='flex justify-center gap-3 items-center mt-2 w-[160px] h-[40px] border border-zinc-600 hover:border focus:border hover:shadow-lg xs:ml-[130px]'>
                             <div className='font-semibold flex hover:text-blue-400'>
                                 
                                 <Link to="/Resume">View Resume</Link>
                             </div>
-                            <img src="./Media/arrow.svg" alt="" />
+                            <img src={arrow} alt="" />
                         </div>
 
                         <div className='flex justify-center gap-3 items-center mt-2 w-[160px] h-[40px] border border-zinc-600 hover:border focus:border hover:shadow-lg xs:ml-[130px]'>
                             <div className='font-semibold flex hover:text-blue-400'>
                                 <Link to="/Resume">Download</Link>
                             </div>
-                            <img src="./Media/download.svg" alt="" />
+                            <img src={download} alt="" />
                         </div>
                     </div>
 
