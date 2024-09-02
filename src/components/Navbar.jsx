@@ -4,6 +4,7 @@ import { FaMoon } from 'react-icons/fa'
 import { IoMoon } from 'react-icons/io5'
 import { IoSunny } from 'react-icons/io5'
 import { IconContext } from 'react-icons'
+import 1 from '/Media/1.png'
 
 const Navbar = () => {
   const [dark, setDark] = React.useState(false);
@@ -19,7 +20,7 @@ const Navbar = () => {
         <div className="h-full flex justify-between items-center mx-6 ">
 
           {/* logo */}
-          <img src="/Media/1.png" alt="" className='max-h-[50px]' />
+          <img src={1} alt="" className='max-h-[50px]' />
 
           {/* navbar for xl */}
 
